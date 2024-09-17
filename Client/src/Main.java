@@ -3,7 +3,6 @@ import java.net.Socket;
 
 public class Main {
     private static Socket clientSocket;
-    private static BufferedReader reader;
     private static BufferedReader in;
     private static BufferedWriter out;
 
@@ -11,19 +10,24 @@ public class Main {
         try {
             try {
                 clientSocket = new Socket("localhost", 8080);
-                System.out.println("Введите сообщение:");
-                reader = new BufferedReader(new InputStreamReader(System.in));
+                System.out.println("Для завершения введите \"exit\".");
+                System.out.println("Введите сообщение: ");
+                BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
                 in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
                 out = new BufferedWriter(new OutputStreamWriter(clientSocket.getOutputStream()));
-
+                String word;
+                String serverWord;
                 do {
-                    String word = reader.readLine();
+                    word = reader.readLine();
                     out.write(word + "\n");
                     out.flush();
 
-                    String serverWord = in.readLine();
+                    serverWord = in.readLine();
                     System.out.println(serverWord);
-                } while (true);
+                    if(word.equals("exit")) {
+                        break;
+                    }
+                } while (word.equals("exit")==false);
 
             } finally {
                 System.out.println("Клиент закрыт.");
@@ -32,7 +36,7 @@ public class Main {
                 out.close();
             }
         } catch (IOException e) {
-            System.err.println(e);
+            e.printStackTrace();
         }
     }
 }
