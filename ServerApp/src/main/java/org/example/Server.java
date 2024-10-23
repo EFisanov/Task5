@@ -7,7 +7,7 @@ import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-public class Main {
+public class Server {
     private static final int PORT = 8080;
     private static final MessageService messageService = new MessageService();
 
