@@ -22,7 +22,7 @@
         </dependency>
 
         <dependency>
-            <groupId>org.example</groupId>
+            <groupId>com.example</groupId>
             <artifactId>xbean</artifactId>
             <version>1.0</version>
         </dependency>

@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="961ff6af-6645-4822-8362-add0a437c517" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Client/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/messages.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +35,9 @@
     &quot;accountId&quot;: &quot;48ef4b54-54d6-42ae-b473-65cc0eb8e120&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -43,24 +46,58 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/efisanov/IdeaProjects/Task5/Server/lib&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/efisanov/IdeaProjects/Task5/Server/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Maven.Server [-U,clean,install].executor": "Run",
+    "Maven.Server [clean:clean].executor": "Run",
+    "Maven.Server [clean].executor": "Run",
+    "Maven.Server [export...].executor": "Run",
+    "Maven.Server [help:active-profiles].executor": "Run",
+    "Maven.Server [install-file...].executor": "Run",
+    "Maven.Server [install...].executor": "Run",
+    "Maven.Server [install:install-file...].executor": "Run",
+    "Maven.Server [install].executor": "Run",
+    "Maven.Server [org.apache.maven.plugins:maven-install-plugin:3.1.3:install-file...].executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/efisanov/IdeaProjects/Task5/Server/lib",
+    "onboarding.tips.debug.path": "C:/Users/efisanov/IdeaProjects/Task5/Server/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.47471264",
+    "settings.editor.selected.configurable": "http.proxy"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\efisanov\IdeaProjects\Task5\Server\src\main\resources\xsd" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install" />
+      <command value="export MAVEN_OPTS=-Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2" />
+      <command value="mvn export MAVEN_OPTS=-Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2" />
+      <command value="mvn install:install-file -Dfile=C:\Data\Soft\xbean.jar -Dpackaging=jar" />
+      <command value="mvn org.apache.maven.plugins:maven-install-plugin:3.1.3:install-file  -Dfile=C:\Data\Soft\xbean.jar -DgroupId=compassplus.ru -DartifactId=xbean -Dversion=1.0 -Dpackaging=jar" />
+      <command value="mvn install -Dfile=C:\Data\Soft\xbean.jar -DgroupId=org.example -DartifactId=xbean -Dversion=1.0 -Dpackaging=jar" />
+      <command value="mvn help:active-profiles" />
+      <command value="mvn clean:clean" />
+      <command value="mvn install:install-file -Dfile=C:\Data\Soft\xbean.jar -DgroupId=org.example -DartifactId=xbean -Dversion=1.0 -Dpackaging=jar" />
+      <command value="mvn -U clean install" />
+      <command value="mvn install-file -Dfile=C:\Data\Soft\xbean.jar -DgroupId=org.example -DartifactId=xbean -Dversion=1.0 -Dpackaging=jar" />
+      <command value="mvn install:install-file -Dfile=C:\Data\Soft\xbean.jar -DgroupId=com.example -DartifactId=xbean -Dversion=1.0 -Dpackaging=jar" />
+      <command value="mvn install:install-file -Dfile=C:\Data\Soft\xbean -DgroupId=com.example -DartifactId=xbean -Dversion=1.0 -Dpackaging=jar" />
+      <command value="mvn install:install-file -DgroupId=com.example -DartifactId=xbean -Dpackaging=jar -Dversion=1.0 -Dfile=C:\Data\Soft\jar\xbean -DgeneratePom=true" />
+      <command value="mvn install:install-file -DgroupId=com.example -DartifactId=xbean -Dpackaging=jar -Dversion=1.0 -Dfile=C:\Data\Soft\jar\xbean.jar -DgeneratePom=true" />
+    </option>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

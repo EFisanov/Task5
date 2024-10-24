@@ -19,7 +19,7 @@ import java.util.Calendar;
 import java.util.Iterator;
 
 public class Main {
-    private final static String FILE_NAME_XML = "C:\\Users\\efisanov\\IdeaProjects\\Task5\\Server\\src\\main\\resources\\data.xml";
+    private final static String FILE_NAME_XML = "data.xml";
     private static final int PORT = 8080;
 
     public static void main(String[] args) {

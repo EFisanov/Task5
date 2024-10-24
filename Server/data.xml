@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mes:messages xmlns:mes="http://example.com/message">
+  <mes:message>
+    <mes:date>2024-10-24T13:32:44.000+05:00</mes:date>
+    <mes:text>One message</mes:text>
+  </mes:message>
+  <mes:message>
+    <mes:date>2024-10-24T13:32:55.000+05:00</mes:date>
+    <mes:text>Two message</mes:text>
+  </mes:message>
+  <mes:message>
+    <mes:date>2024-10-24T13:33:52.000+05:00</mes:date>
+    <mes:text>Three message</mes:text>
+  </mes:message>
+</mes:messages>
